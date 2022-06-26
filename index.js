@@ -1,7 +1,7 @@
 /* Coded by Younès Elab @ Palmthree Studio, please don't reuse this code without my express permission */
 const express = require('express');
 const app = express();
-const port = 3000;
+const PORT = 3000;
 const fs = require("fs");
 
 // Cross Domain Origin Setup
@@ -64,6 +64,6 @@ app.get('/product', (req, res) => {
   res.send(product);
 });
 
-app.listen(port, () => {
-  console.log(`Hermès app listening on port ${port}!`)
-});
+app.listen(process.env.PORT || PORT, () => {
+  console.log(`Example app listening at ${PORT}`)
+})
