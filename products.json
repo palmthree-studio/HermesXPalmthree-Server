@@ -1,0 +1,46 @@
+[{
+    "name":"Younès Elab",
+    "type":"Front End Engineer",
+    "price":400,
+    "img":"assets/img/younes.jpeg",
+    "description":"Je ne suis pas seulement un webdesigner et un ingénieur front-end, je suis avant tout un être humain passionné.<br>La marque Hermès représente l’excellence, le luxe et la beauté à la française.<br>Je serai ravi de pouvoir faire parti de l’aventure en tant que développeur front-end.",
+    "additionalDetails":"Développeur apporté par Computer Futures.<br>(Bientôt ?) Propulsé par Capgemini.",
+    "skills":[
+    "HTML",
+    "CSS/SCSS",
+    "Javascript",
+    "Typescript",
+    "Angular",
+    "AngularJS",
+    "Node.js",
+    "GIT",
+    "Heroku CLI",
+    "Netlify Deploy",
+    "Photoshop",
+    "Illustrator",
+    "InDesign",
+    "Figma",
+    "Sketch",
+    "Adobe XD",
+    "WordPress",
+    "SEO Onsite"
+    ],
+    "usedTechs":[
+      "HTML",
+      "CSS/SCSS",
+      "Typescript",
+      "Angular",
+      "Node.js",
+      "GIT",
+      "Heroku CLI",
+      "Netlify Deploy",
+      "Figma"
+    ],
+    "promoBloc":{
+      "isActive":true,
+      "title":"Le travail d’équipe avant toute chose",
+      "description":"Comme le dit une sagesse populaire ”Seul, on va plus vite. Ensemble, on va plus loin.”",
+      "img":"assets/img/horses.jpeg",
+      "imgAlt":"Horses"
+    }
+  }]

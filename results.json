@@ -1,0 +1,25 @@
+[{
+    "score":0,
+    "text":"Vous êtes passé complétement à côté ...<br> Mais ce n'est pas grave, faisons quand même connaissance !",
+    "tadaIsActive":false
+  },{
+    "score":1,
+    "text":"Vous êtes passé complétement à côté ...<br> Mais ce n'est pas grave, faisons quand même connaissance !",
+    "tadaIsActive":false
+  },{
+    "score":2,
+    "text":"Il faut revoir vos connaissances sur Hermès ...<br> Google est votre ami pour cela ! Wikipédia aussi. Allez, faisons connaissance maintenant.",
+    "tadaIsActive":false
+  },{
+    "score":3,
+    "text":"Il faut revoir vos connaissances sur Hermès ...<br> Google est votre ami pour cela ! Wikipédia aussi. Allez, faisons connaissance maintenant.",
+    "tadaIsActive":false
+  },{
+    "score":4,
+    "text":"Vous êtes (presque) incollable sur la marque Hermès, bravo !<br> Maintenant, il est temps de faire plus ample connaissance.",
+    "tadaIsActive":false
+  },{
+    "score":5,
+    "text":"Félicitations ! Vous êtes incollable sur la marque Hermès.<br> Maintenant, il est temps de faire plus ample connaissance.",
+    "tadaIsActive":true
+}]
