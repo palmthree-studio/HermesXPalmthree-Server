@@ -42,6 +42,23 @@ app.get('/question', (req, res) => {
   res.send(question);
 });
 
+app.get('/questions', (req, res) => {
+  // For our first call, we will get the two first questions.
+  // Let's go :
+  // Get the two questionID that the client asked
+  var questionID1 = req.query.id1
+  var questionID2 = req.query.id2
+  // read file and make object
+  var questions = JSON.parse(fs.readFileSync('questions.json', 'utf8'));
+  // setup the good object
+  var questions = [];
+  var question1 = questions[questionID1];
+  var question2 = questions[questionID2];
+  // Create and send the good object
+  questions.push(question1,question2);
+  res.send(questions);
+});
+
 app.get('/result', (req, res) => {
   // Get the good answer count from the client
   var goodAnswerCount = req.query.count
