@@ -51,17 +51,15 @@ app.get('/questions', (req, res) => {
   // read file and make object
   var questions = JSON.parse(fs.readFileSync('questions.json', 'utf8'));
   // setup the good object
-  var questions = [];
+  var arr = [];
   var question1 = questions[questionID1];
   var question2 = questions[questionID2];
   // Create and send the good object
-  console.log(questionID1);
-  console.log(questionID2);
   console.log(question1);
   console.log(question2);
-  questions.push(question1,question2);
-  console.log(questions);
-  res.send(questions);
+  arr.push(question1,question2);
+  console.log(arr);
+  res.send(arr);
 });
 
 app.get('/result', (req, res) => {
