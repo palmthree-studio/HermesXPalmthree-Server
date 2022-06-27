@@ -56,6 +56,7 @@ app.get('/questions', (req, res) => {
   var question2 = questions[questionID2];
   // Create and send the good object
   questions.push(question1,question2);
+  console.log(questions);
   res.send(questions);
 });
 
