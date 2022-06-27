@@ -24,7 +24,7 @@ var allowCrossDomain = function(req, res, next) {
 };
 app.use(allowCrossDomain);
 app.use(function(req, res, next) {
-  const allowedOrigins = ['https://hermes.palmthree.studio/','https://hermesxpalmthree.netlify.app/'];
+  const allowedOrigins = ['https://hermes.palmthree.studio','https://hermesxpalmthree.netlify.app'];
   const origin = req.headers.origin;
   if (allowedOrigins.includes(origin)) {
       res.setHeader('Access-Control-Allow-Origin', origin);
